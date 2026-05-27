@@ -86,7 +86,6 @@ public class OrderPageTests {
 
         LocalDate today = LocalDate.now();
         LocalDate tomorrow = LocalDate.now().plusDays(1);
-        LocalDate yesterday = LocalDate.now().minusDays(1);
 
         return Stream.of(
                 Arguments.of("body", "Иван", "Иванович", "ул.Пушкина, д. Колотушкина", "Коптево", "79999999999",
